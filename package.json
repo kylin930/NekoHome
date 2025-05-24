@@ -1,0 +1,37 @@
+{
+    "name": "NekoHome",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@extractus/feed-extractor": "^6.2.1",
+        "@tailwindcss/typography": "^0.5.9",
+        "@types/marked": "^4.0.8",
+        "autoprefixer": "^10.4.13",
+        "framer-motion": "^10.0.0",
+        "http-proxy-middleware": "^2.0.6",
+        "localforage": "^1.10.0",
+        "lucide-react": "^0.115.0",
+        "marked": "^4.2.12",
+        "match-sorter": "^6.3.1",
+        "postcss": "^8.4.21",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.8.1",
+        "sort-by": "^1.2.0",
+        "tailwindcss": "^3.2.7",
+        "umi-request": "^1.4.0",
+        "vite-plugin-html": "^3.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.1.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.0"
+    }
+}
